@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="grad-1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Treasure Hunt</title>
+
+</head>
+
+<body class="trp">
+    <h1 class="m-0 googleFonts txt-alg magnify mb-3">Treasure Hunt</h1>
+    <h2 class="m-0 googleFonts txt-alg mb-3">Score: <span id="cs">0</span></h2>
+    <div class="container grad-2 rounded-3 p-4 sizer">
+        <div class="row">
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <img src="img/chest.png" alt="" srcset="" class="img-sizer rounded-4 m-2 chest" id="1">
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <img src="img/chest.png" alt="" srcset="" class="img-sizer rounded-4 m-2 chest" id="2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <img src="img/chest.png" alt="" srcset="" class="img-sizer rounded-4 m-2 chest" id="3">
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <img src="img/chest.png" alt="" srcset="" class="img-sizer rounded-4 m-2 chest" id="4">
+            </div>
+        </div>
+        <div class="row blocker target">
+            <div class="col d-flex justify-content-center align-items-center magnify googleFonts colr">Game Over</div>
+        </div>
+        <div class="row blocker target">
+            <div class="col d-flex align-items-center justify-content-center"><button type="button"
+                    class="btn btn-dark googleFonts" id="refresh">Refresh</button></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<!-- <div class="d-flex justify-content-center">Credit</div>
+<div class="d-flex justify-content-center">Copyright</div>
+<div class="d-flex justify-content-center">FreeGames</div> -->
+
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.grad-1 {
+    background-image: url(img/jules-bss-_S8XcvSpQo4-unsplash.jpg);
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgb(37, 39, 39);
+}
+
+.grad-2{
+    background-image: linear-gradient(to right, rgba(200, 208, 209, 0.5), rgba(100, 139, 179, 0.5));
+    backdrop-filter: blur(3px);
+}
+
+
+
+.sizer{
+    max-width: 80%;
+}
+
+.img-sizer{
+    width: 100%;
+}
+
+img:active{
+    width: 96%;
+}
+
+.trp{
+    background-color: transparent;
+}
+
+.googleFonts {
+    font-family: Shadows Into Light;
+    color: white;
+}
+
+.txt-alg {
+    text-align: center;
+}
+
+.magnify {
+    font-size: 5rem;
+}
+
+.colr{
+    color: rgb(0, 0, 0);
+}
+
+.blocker{
+    display: none;
+}
